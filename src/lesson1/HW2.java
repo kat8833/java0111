@@ -11,6 +11,14 @@ package lesson1;
  */
 public class HW2 {
     public static void main(String[] args) {
+        short x = 3;
+        short y = 3;
+        int z = 6;
 
+        if (x * y == z) {
+            System.out.println("Хорошие числа");
+        } else {
+            System.out.println("Не повезло");
+        }
     }
 }
